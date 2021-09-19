@@ -4,7 +4,7 @@
   padding: 25px;
   border: 1px solid #dadde1;
   border-radius: 7px;
-  line-height: 29.8px;
+  line-height: 30px;
 }
 h1 {
   color: #272044;
@@ -25,4 +25,28 @@ li {
   color: #272044;
   font-size: 16px;
   font-weight: 200;
+}
+
+small {
+  max-width: 600px;
+  margin: 30px auto;
+}
+
+#temperature {
+  font-size: 64px;
+  font-weight: 400;
+  padding: 0px;
+}
+
+#git-hub-link {
+  display: block;
+  margin: 0 auto;
+}
+
+.weather-temperature {
+  margin: 20px;
+}
+
+#weather-icon {
+  line-height: 10px;
 }
