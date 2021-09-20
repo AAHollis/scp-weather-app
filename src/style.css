@@ -25,6 +25,9 @@ li {
   color: #272044;
   font-size: 16px;
   font-weight: 200;
+}
+
+li:first-letter {
   text-transform: capitalize;
 }
 
