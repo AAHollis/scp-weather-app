@@ -4,24 +4,23 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
       crossorigin="anonymous"
     />
-    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>Weather App</title>
   </head>
   <body>
     <div class="container">
       <div class="weather-app">
-        <h1>Mildura, VIC, Australia</h1>
+        <h1 id="city"></h1>
         <ul>
           <li>Sunday 10:58am</li>
-          <li>Sunny</li>
+          <li id="description"></li>
         </ul>
         <div class="row">
           <div class="col-6">
@@ -32,15 +31,14 @@
                 id="weather-icon"
                 class="float-left"
               />
-              <span class="float-left" id="temperature">18</span>
+              <span id="temperature"></span>
               <span class="units"> °C | <a href="#">°F</a></span>
             </div>
           </div>
           <div class="col-6">
             <ul>
-              <li>Precipitation: 0%</li>
-              <li>Humidity:34%</li>
-              <li>Wind: 14mph</li>
+              <li>Humidity: <span id="humidity"></span>%</li>
+              <li>Wind: <span id="wind"></span>km/h</li>
             </ul>
           </div>
         </div>
