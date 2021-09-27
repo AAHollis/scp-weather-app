@@ -2,9 +2,10 @@
   max-width: 600px;
   margin: 30px auto;
   padding: 25px;
-  border: 1px solid #dadde1;
+  border: 1px solid #272044;
   border-radius: 7px;
   line-height: 30px;
+  background-color: #d2dae3;
 }
 h1 {
   color: #272044;
@@ -40,6 +41,7 @@ small {
   font-size: 64px;
   font-weight: 400;
   padding: 0px;
+  color: #272044;
 }
 
 #git-hub-link {
@@ -84,8 +86,10 @@ small {
 
 .forecast-min {
   opacity: 0.6;
+  color: #a20066;
 }
 
 .forecast-max {
   font-weight: bold;
+  color: #272044;
 }
